@@ -163,7 +163,7 @@ height:25%;
       transform: translate(-50%, -50%);
 }
 .fullscreen{
-  height:100%;
+  height:auto;
 
 
   opacity: 0;
@@ -276,8 +276,27 @@ span:hover::after {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  height: auto;
+  max-height: 200vh;
 
   -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-container-reverse {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: auto;
+  max-height: 200vh;
+
+  -webkit-flex-flow: row-reverse wrap;
   justify-content: space-around;
 }
 .row{
@@ -285,19 +304,7 @@ span:hover::after {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.parallax {
-  /* The image used */
 
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .textHeader{
 
       font-weight: 700;
@@ -321,30 +328,97 @@ span:hover::after {
     flex-grow: 1;
     width:50vh;
 
-  line-height: 20px;
-  color: #000;
+    color: #494344;
+    font-family: Proxima Nova regular,serif;
+      font-weight: 400;
+      font-style: normal;
+      overflow-x: hidden;
+      overflow-y: hidden;
+  text-align: center;
+}
+.flex-itemnew {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 3em;
   text-align: center;
 }
 .flex-item2 {
   background: #494344;
-  overflow: auto;
-  max-height: 100vh
+  max-height: 100vh;
 
   height: 100vh;
   min-width: 400px;
     max-width: 8000px;
     flex-basis: auto; /* default value */
     flex-grow: 1;
-width: 50vh;
-  line-height: 20px;
-  color: #f2f3eb;
-  font-family: Proxima Nova regular,serif;
+    width:50vh;
+    line-height: 20px;
+    color: #f2f3eb;
+    font-family: Proxima Nova regular,serif;
       font-weight: 400;
       font-style: normal;
-
+      overflow-x: hidden;
+      overflow-y: hidden;
   text-align: center;
+
+}
+.fkex-item2-bkg:hover{
+
+  transform: scale(1.2);
+}
+.flex-item2-bkg {
+  transition: all 0.5s ease;
+  background: #494344;
+  max-height: 100%;
+  height: 100%;
+  min-width: 400px;
+  max-width: 8000px;
+
+  width:50%;
+
+
+background-image: url("Images/coffee1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.divheader{
+z-index: 10;
+height: 100%;
+width:100%;
+margin-top:30vh;
+float: left;
+
+
+}
+.inner-div
+{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     background-image: url('Images/coffee1.jpg');
+     z-index: -100;
+}
+.inner-div:hover
+{
+     transform: scale(1.1);
+}
+
+.image{
+
+  max-width: 100vh;
+  min-width: 50vh;
+  margin-left: 50%;
+transform: translate(-50vh,-50vh);
+margin-top: 50%;
 
 }
 .fadein{
