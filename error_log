@@ -1,0 +1,12 @@
+[31-Aug-2019 13:57:34 UTC] PHP Warning:  Illegal string offset 'Array' in /home/zetcastco/public_html/dev/portfolio/index.php on line 117
+[31-Aug-2019 13:57:34 UTC] PHP Warning:  Illegal string offset 'results' in /home/zetcastco/public_html/dev/portfolio/index.php on line 118
+[31-Aug-2019 14:03:33 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/zetcastco/public_html/dev/portfolio/index.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/zetcastco/public_html/dev/portfolio/index.php on line 117
+[31-Aug-2019 14:09:38 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/zetcastco/public_html/dev/portfolio/index.php on line 119
+[31-Aug-2019 14:12:29 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/zetcastco/public_html/dev/portfolio/index.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/zetcastco/public_html/dev/portfolio/index.php on line 117
+[31-Aug-2019 14:48:59 UTC] PHP Warning:  Illegal string offset 'results' in /home/zetcastco/public_html/dev/portfolio/index.php on line 115
