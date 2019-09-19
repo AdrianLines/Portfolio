@@ -3,12 +3,17 @@
 
 }
 
+.flex-item-hit{
+  position: fixed;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 .icon{
   position: absolute;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #000;
+  padding: 1%;
 }
 .icon :hover{
 color: #f2f3eb;
@@ -404,8 +409,9 @@ span:hover::after {
 }
 .flex-item {
   background: #f2f3eb;
-
-
+  webkit-transition: 1s width cubic-bezier(.77,0,.175,1);
+  transition: 1s width cubic-bezier(.77,0,.175,1);
+  z-index: 200;
   height: 100vh;
   min-width: 400px;
     max-width: 8000px;
