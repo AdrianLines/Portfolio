@@ -1,5 +1,5 @@
 
-<svg class = "screenTitle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 257" width="540" height="257">
+<svg class = "screenTitle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 257"  height="257">
 	<style>
 		tspan { white-space:pre }
 		.shp0 { fill: #292929 } 
