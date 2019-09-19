@@ -5,7 +5,13 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
-
+.icon{
+  position: absolute;
+  font-size: 3em;
+}
+.icon :hover{
+color: #f2f3eb;
+}
 .card {
     display: inline-block;
     position: relative;

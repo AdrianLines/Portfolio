@@ -39,7 +39,7 @@ projs.scrollIntoView();
 <!--	<div class="canvas-interactive-wrapper"> -->
 	 <!--   <canvas id="canvas-interactive"></canvas> -->
 			<div class = "homescreen">
-
+			<a class =  "icon" href = "https://github.com/AdrianLines"> <i class="devicon-github-plain icon"></i></a>
 
 
 				
