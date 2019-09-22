@@ -69,9 +69,13 @@ projs.scrollIntoView();
 		 }, { offset: '50%'})
 		 $page1.waypoint(function(direction){
 			console.log(direction);
-			$about.addClass("flex-item-hit");
+			if(direction = down){
+				$about.addClass("flex-item-hit")
+			}elseif(direction = up){
+				$about.removeClass("flex-item-hit")
+			}
 			 console.log("waypoint hit");
-		 }, { offset: '0%'})
+		 }
 		 
 
 
