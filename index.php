@@ -58,7 +58,7 @@ projs.scrollIntoView();
 	<div id="about" class = "fullscreen">
 		<script>
 		 var $page1 = $('.fullscreen');
-		 var $about = $('#aboutHalf');
+		 var $about = $('#about');
 		 $page1.waypoint(function(){
 			 $page1.addClass("fadein");
 			$about.addClass("flex-item-hit");
@@ -71,7 +71,7 @@ projs.scrollIntoView();
 		</script>
 
 		<div class="flex-container">
-	  <div id = "aboutHalf" class="flex-item">
+	  <div id = "about" class="flex-item halfscreen1">
 <?php include "navDark.php";?>
 
 
