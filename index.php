@@ -71,7 +71,7 @@ projs.scrollIntoView();
 		</script>
 
 		<div class="flex-container">
-	  <div id = "aboutHalf" class="flex-item halfscreen1">
+	  <div id = "aboutHalf" class="flex-item">
 <?php include "navDark.php";?>
 
 
