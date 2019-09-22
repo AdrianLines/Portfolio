@@ -56,7 +56,11 @@ projs.scrollIntoView();
 
 	</div>
 	<div id="about" class = "fullscreen">
-		<script>
+		<div class="flex-container">
+	  <div id = "about" class="flex-item halfscreen1">
+<?php include "navDark.php";?>
+
+<script>
 		 var $page1 = $('.fullscreen');
 		 var $about = $('#about');
 		 $page1.waypoint(function(){
@@ -69,12 +73,6 @@ projs.scrollIntoView();
 
 
 		</script>
-
-		<div class="flex-container">
-	  <div id = "about" class="flex-item halfscreen1">
-<?php include "navDark.php";?>
-
-
 <?php include "about.svg"?>
 </div>
 		<div id = "flexbox2" class="flex-item2">
