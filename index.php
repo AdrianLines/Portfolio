@@ -65,9 +65,13 @@ projs.scrollIntoView();
 		 var $about = $('#aboutHalf');
 		 $page1.waypoint(function(){
 			 $page1.addClass("fadein");
-			$about.addClass("flex-item-hit");
 			 console.log("waypoint hit");
 		 }, { offset: '50%'})
+		 $page1.waypoint(function(){
+			 
+			$about.addClass("flex-item-hit");
+			 console.log("waypoint hit");
+		 }, { offset: '0%'})
 		 
 
 
@@ -111,6 +115,12 @@ projs.scrollIntoView();
 		$page2.addClass("fadein");
 		console.log("waypoint hit");
 	}, { offset: '50%'})
+	var $page2 = $('.fullscreen2');
+	$page2.waypoint(function(){
+		$about.removeClass('flex-item-hit');
+		console.log("waypoint hit");
+	}, { offset: '0%'})
+
 	</script>
 
 
