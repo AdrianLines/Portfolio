@@ -68,7 +68,9 @@ projs.scrollIntoView();
 			 console.log("waypoint hit");
 		 }, { offset: '50%'})
 		 $page1.waypoint(function(){
-			 
+			enter: function(direction) {
+    notify('Enter triggered with direction ' + direction)
+  },			 
 			$about.addClass("flex-item-hit");
 			 console.log("waypoint hit");
 		 }, { offset: '0%'})
@@ -119,7 +121,7 @@ projs.scrollIntoView();
 	$page2.waypoint(function(){
 		$about.removeClass('flex-item-hit');
 		console.log("waypoint hit");
-	}, { offset: '0%'})
+	}, { offset: '100%'})
 
 	</script>
 
