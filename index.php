@@ -56,31 +56,25 @@ projs.scrollIntoView();
 
 	</div>
 	<div id="about" class = "fullscreen">
-		<div class="flex-container">
-	  <div id = "aboutHalf" class="flex-item halfscreen1">
-<?php include "navDark.php";?>
-
-<script>
+		<script>
 		 var $page1 = $('.fullscreen');
-		 var $about = $('#aboutHalf');
+		 
 		 $page1.waypoint(function(){
 			 $page1.addClass("fadein");
+			 
 			 console.log("waypoint hit");
 		 }, { offset: '50%'})
-		 $page1.waypoint(function(direction){
-			console.log(direction);
-			if(direction = down){
-				$about.addClass("flex-item-hit");
-			}elseif(direction = up){
-				$about.removeClass("flex-item-hit")
-			}
-			 console.log("waypoint hit");
-		 }
 		 
 
 
 
 		</script>
+
+		<div class="flex-container">
+	  <div class="flex-item">
+<?php include "navDark.php";?>
+
+
 <?php include "about.svg"?>
 </div>
 		<div id = "flexbox2" class="flex-item2">
@@ -119,12 +113,6 @@ projs.scrollIntoView();
 		$page2.addClass("fadein");
 		console.log("waypoint hit");
 	}, { offset: '50%'})
-	var $page2 = $('.fullscreen2');
-	$page2.waypoint(function(){
-		$about.removeClass('flex-item-hit');
-		console.log("waypoint hit");
-	}, { offset: '100%'})
-
 	</script>
 
 
