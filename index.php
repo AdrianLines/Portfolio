@@ -121,11 +121,13 @@ projs.scrollIntoView();
 			<ul class="flex-container">
             <li class="flex-itemnew card">
 			<div><img class = "cardimage" src= "images/Calendar.jpg"> </img></div>	
-			<p>DTF</p>
+			<p><b>DTF<b></p>
              This project was created using the dota2 coordinator api, the api holds around 4 billion records each of which represents a match played. The idea of this project was to pull the data in and store it in a SQL database available for use later on. I plan at somepoint to implement some sort of ai to determine patterns within the data.
             	I really enjoyed working on this one as it allowed me to really get into a large amount of data without having to create the data myself. It already exists and there's a lot of it.
-            </li>
-			  <li class="flex-itemnew">2</li>
+				<a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
+
+			</li>
+			  <li class="flex-itemnew"></li>
 			  <li class="flex-itemnew">3</li>
 			  <li class="flex-itemnew">4</li>
 			  <li class="flex-itemnew">5</li>
