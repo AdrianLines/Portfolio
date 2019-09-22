@@ -70,7 +70,7 @@ projs.scrollIntoView();
 		 $page1.waypoint(function(direction){
 			console.log(direction);
 			if(direction = down){
-				$about.addClass("flex-item-hit")
+				$about.addClass("flex-item-hit");
 			}elseif(direction = up){
 				$about.removeClass("flex-item-hit")
 			}
