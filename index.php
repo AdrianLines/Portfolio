@@ -117,20 +117,28 @@ projs.scrollIntoView();
 
 
 	 <div class = "flex-container-reverse">
-		<div class = "flex-item">
-
-
-<!-- 
+		<!--<div class = "flex-item">
+			<ul class="flex-container">
+            <li class="flex-itemnew card">
+			<div><img class = "cardimage" src= "images/Calendar.jpg"> </img></div>	
+			<p><b>DTF</b><br>
              This project was created using the dota2 coordinator api, the api holds around 4 billion records each of which represents a match played. The idea of this project was to pull the data in and store it in a SQL database available for use later on. I plan at somepoint to implement some sort of ai to determine patterns within the data.
             	I really enjoyed working on this one as it allowed me to really get into a large amount of data without having to create the data myself. It already exists and there's a lot of it.
-				<br> -->
-
-<div class="parent">
-<div class="div1"> <div><img class = "cardimage" src= "images/Calendar.jpg"> </img></div>	
-			
+				<br>
 				<a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-				<p><b>DTF</b><br>
-
+</p>
+			</li>
+			  <li class="flex-itemnew"></li>
+			  <li class="flex-itemnew">3</li>
+			  <li class="flex-itemnew">4</li>
+			  <li class="flex-itemnew">5</li>
+			  <li class="flex-itemnew">6</li>
+			</ul>
+</div> -->
+<div class = "flex-item">
+<div class="parent">
+<div class="div1"><a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
+				<p><b>DTF</b><br> </div>
 <div class="div2"> </div>
 <div class="div3"> </div>
 <div class="div4"> </div>
@@ -145,34 +153,17 @@ projs.scrollIntoView();
 </div>
 </div>
 
+
+				
+
+
 <div class = "flex-item2">
 	<div class ="divheader">
 		<?php include "projects.svg"?>
 	</div>
 		
 
-<?php>		$ch = curl_init();
 
-
-
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_URL, 'https://adrianportfolio.cdn.prismic.io/api/v2/documents/search?ref=XWjoVBEAACUA-JWI');
-		$result = curl_exec($ch);
-
-
-		$obj = json_decode($result);
-		$myJSON = json_encode($obj);
-		echo (array)$obj;
-
-
-		curl_close($ch);
-
-		$obj = json_decode($result);
-	  $details = json_encode($obj);
-	  print $details;
-
-?>
 </div>
 </div>
 </div>
