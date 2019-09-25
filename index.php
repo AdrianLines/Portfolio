@@ -137,9 +137,14 @@ projs.scrollIntoView();
 </div> -->
 <div class = "flex-item">
 <div class="parent">
-<div class="div1"><a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-				<p><b>DTF</b><br> </div>
-<div class="div2"> </div>
+<div class="div1">
+<img onClick = "imageClicked()" class = "cardimage" src= "images/Calendar.jpg"> </img>
+<a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
+<p><b>DTF</b><br> </div>
+<div class="div2">
+<img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
+<a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
+<p><b>Node.JS Real Time Chat</b><br> </div>
 <div class="div3"> </div>
 <div class="div4"> </div>
 <div class="div5"> </div>
@@ -168,7 +173,13 @@ projs.scrollIntoView();
 </div>
 </div>
 
+<script> 
 
+imageClicked(){
+console.log("image clicked");
+}
+
+</script>
 
 
 </body>
