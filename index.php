@@ -137,11 +137,11 @@ projs.scrollIntoView();
 </div> -->
 <div class = "flex-item">
 <div class="parent">
-<div class="div1">
+<div class="div1 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Calendar.jpg"> </img>
 <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
 <p><b>DTF</b><br> </div>
-<div class="div2">
+<div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
 <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
 <p><b>Node.JS Real Time Chat</b><br> </div>
@@ -160,7 +160,16 @@ projs.scrollIntoView();
 
 
 				
+<div id = "proj" class = "projectShowcase">
 
+<div> 
+Hello
+<p>
+
+</p>
+</div>
+
+</div>
 
 <div class = "flex-item2">
 	<div class ="divheader">
@@ -175,7 +184,9 @@ projs.scrollIntoView();
 
 <script> 
 
-imageClicked(){
+function imageClicked(){
+	var $proj = $('#proj');
+	$proj.addClass("visible");
 console.log("image clicked");
 }
 

@@ -2,12 +2,25 @@
 
 
 }
-
+.projectShowcase{
+  background-color : #fff; 
+  height: 90vh;
+  width: 90vh;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+  position: fixed;
+  visibility: hidden;
+}
 .flex-item-hit{
   position: fixed;
   left : 0;
   top : 0;
   width : 100%;
+}
+.visible{
+visibility: visible;
 }
 
 .parent {
