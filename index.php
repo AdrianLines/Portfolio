@@ -145,16 +145,16 @@ projs.scrollIntoView();
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
 <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
 <p><b>Node.JS Real Time Chat</b><br> </div>
-<div class="div3"> </div>
-<div class="div4"> </div>
-<div class="div5"> </div>
-<div class="div6"> </div>
-<div class="div7"> </div>
-<div class="div8"> </div>
-<div class="div9"> </div>
-<div class="div10"> </div>
-<div class="div11"> </div>
-<div class="div12"> </div>
+<div class="div3 card"> </div>
+<div class="div4 card"> </div>
+<div class="div5 card"> </div>
+<div class="div6 card"> </div>
+<div class="div7 card"> </div>
+<div class="div8 card"> </div>
+<div class="div9 card"> </div>
+<div class="div10 card"> </div>
+<div class="div11 card"> </div>
+<div class="div12 card"> </div>
 </div>
 </div>
 
