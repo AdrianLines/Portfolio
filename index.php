@@ -7,16 +7,16 @@
 	<link rel = "stylesheet"
         type = "text/css"
 		href = "stylesheet.css" />
+
 		<link rel = "stylesheet"
         type = "text/css"
-        href = "pushbar/stylesheet.css" />
+        href = "pushbar/pushbar.css" />
 	<!-- in your header -->
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
 	<title></title>
-	<script src="granim.js-master/dist/granim.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="jquery.waypoints.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="pushbar/pushbar.css">
 		<script>
