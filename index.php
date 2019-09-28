@@ -192,9 +192,9 @@ Most of the site is written in php with the requests being made by sending reque
 </div>
 
 <script> 
-var $proj = $('#proj');
+
 function imageClicked(){
-	
+	var $proj = $('#proj');
 	$proj.addClass("visible");
 console.log("image clicked");
 }
@@ -203,7 +203,7 @@ function close(){
 	$proj.removeClass("visible");
 console.log("image clicked");
 }
-}
+
 </script>
 
 
