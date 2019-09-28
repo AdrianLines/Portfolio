@@ -163,10 +163,19 @@ projs.scrollIntoView();
 <div id = "proj" class = "projectShowcase">
 
 <div> 
-Hello
 <p>
+This project involved using the api for the popular video game Dota 2, the api contains a large amount of detail on over 4 billion matches.
+I was really interested when I found out about the amoutn of data that was actually stored, DTF was based on the idea that you search in your account ID and your recent match history was made.
+It was implemented like this as I only had 100,000 api requests per day and I wanted the system to be dynamic enough that if there were a large amount of visitors I wouldn't hit the limit.
+All data that was searched was imported into the database so as to not use up a precious request.
+<br>
+<b>Languages Used</b>
+<br> 
+Most of the site is written in php with the requests being made by sending requests to page using jQuery which returns a JSON.
 
 </p>
+
+<div onClick = "close()"> </div>
 </div>
 
 </div>
@@ -183,13 +192,18 @@ Hello
 </div>
 
 <script> 
-
+var $proj = $('#proj');
 function imageClicked(){
-	var $proj = $('#proj');
+	
 	$proj.addClass("visible");
 console.log("image clicked");
 }
-
+function close(){
+	var $proj = $('#proj');
+	$proj.removeClass("visible");
+console.log("image clicked");
+}
+}
 </script>
 
 
