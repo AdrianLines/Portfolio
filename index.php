@@ -6,7 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel = "stylesheet"
         type = "text/css"
-        href = "stylesheet.css" />
+		href = "stylesheet.css" />
+		<link rel = "stylesheet"
+        type = "text/css"
+        href = "pushbar/stylesheet.css" />
 	<!-- in your header -->
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
@@ -15,7 +18,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 
-		<script src="jquery.waypoints.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="pushbar/pushbar.css">
 		<script>
   window.prismic = {
     endpoint: 'https://adrianportfolio.cdn.prismic.io/api/v2'
@@ -139,12 +142,11 @@ projs.scrollIntoView();
 <div class="parent">
 <div class="div1 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Calendar.jpg"> </img>
-<a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-<p><b>DTF</b><br> </div>
+<p><b>DTF</b><br> <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
+<button data-pushbar-target="mypushbar2">Open my pushbar 2</button></div>
 <div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
-<a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-<p><b>Node.JS Real Time Chat</b><br> </div>
+<p><b>Node.JS Real Time Chat</b><br> <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
 <div class="div3 card"> </div>
 <div class="div4 card"> </div>
 <div class="div5 card"> </div>
@@ -158,10 +160,13 @@ projs.scrollIntoView();
 </div>
 </div>
 
+  <div data-pushbar-id="mypushbar1" class="pushbar from_left">
+									   	Push bar content 1
 
-				
+									   	<button data-pushbar-close>Close</button>
+								  </div>
+<!-- 				
 <div id = "proj" class = "projectShowcase">
-
 <div> 
 <p>
 This project involved using the api for the popular video game Dota 2, the api contains a large amount of detail on over 4 billion matches.
@@ -179,7 +184,7 @@ Most of the site is written in php with the requests being made by sending reque
 </div>
 
 </div>
-
+-->
 <div class = "flex-item2">
 	<div class ="divheader">
 		<?php include "projects.svg"?>
@@ -190,22 +195,12 @@ Most of the site is written in php with the requests being made by sending reque
 </div>
 </div>
 </div>
-
-<script> 
-
-function imageClicked(){
-	var $proj = $('#proj');
-	$proj.addClass("visible");
-console.log("image clicked");
-}
-function close(){
-	var $proj = $('#proj');
-	$proj.removeClass("visible");
-console.log("image clicked");
-}
-
-</script>
-
-
+<script type="text/javascript">
+			  	new Pushbar({
+				blur:true,
+				overlay:true,
+			 });
+								</script>
+	<script type="text/javascript" src="pushbar/pushbar.js"></script>
 </body>
 </html>
