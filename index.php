@@ -120,24 +120,7 @@ projs.scrollIntoView();
 
 
 	 <div class = "flex-container-reverse">
-		<!--<div class = "flex-item">
-			<ul class="flex-container">
-            <li class="flex-itemnew card">
-			<div><img class = "cardimage" src= "images/Calendar.jpg"> </img></div>	
-			<p><b>DTF</b><br>
-             This project was created using the dota2 coordinator api, the api holds around 4 billion records each of which represents a match played. The idea of this project was to pull the data in and store it in a SQL database available for use later on. I plan at somepoint to implement some sort of ai to determine patterns within the data.
-            	I really enjoyed working on this one as it allowed me to really get into a large amount of data without having to create the data myself. It already exists and there's a lot of it.
-				<br>
-				<a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-</p>
-			</li>
-			  <li class="flex-itemnew"></li>
-			  <li class="flex-itemnew">3</li>
-			  <li class="flex-itemnew">4</li>
-			  <li class="flex-itemnew">5</li>
-			  <li class="flex-itemnew">6</li>
-			</ul>
-</div> -->
+
 <div class = "flex-item">
 <div class="parent">
 <div class="div1 card">
@@ -147,44 +130,21 @@ projs.scrollIntoView();
 <div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
 <p><b>Node.JS Real Time Chat</b><br> <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
-<div class="div3 card"> </div>
-<div class="div4 card"> </div>
-<div class="div5 card"> </div>
-<div class="div6 card"> </div>
-<div class="div7 card"> </div>
-<div class="div8 card"> </div>
-<div class="div9 card"> </div>
-<div class="div10 card"> </div>
-<div class="div11 card"> </div>
-<div class="div12 card"> </div>
+<div class="div3 "> </div>
+<div class="div4 "> </div>
+<div class="div5 "> </div>
+<div class="div6 "> </div>
+<div class="div7 "> </div>
+<div class="div8 "> </div>
+<div class="div9 "> </div>
+<div class="div10 "> </div>
+<div class="div11 "> </div>
+<div class="div12  	"> </div>
 </div>
 </div>
 
-  <div data-pushbar-id="mypushbar1" class="pushbar from_left">
-									   	Push bar content 1
+  
 
-									   	<button data-pushbar-close>Close</button>
-								  </div>
-<!-- 				
-<div id = "proj" class = "projectShowcase">
-<div> 
-<p>
-This project involved using the api for the popular video game Dota 2, the api contains a large amount of detail on over 4 billion matches.
-I was really interested when I found out about the amoutn of data that was actually stored, DTF was based on the idea that you search in your account ID and your recent match history was made.
-It was implemented like this as I only had 100,000 api requests per day and I wanted the system to be dynamic enough that if there were a large amount of visitors I wouldn't hit the limit.
-All data that was searched was imported into the database so as to not use up a precious request.
-<br>
-<b>Languages Used</b>
-<br> 
-Most of the site is written in php with the requests being made by sending requests to page using jQuery which returns a JSON.
-
-</p>
-
-<div onClick = "close()"> </div>
-</div>
-
-</div>
--->
 <div class = "flex-item2">
 	<div class ="divheader">
 		<?php include "projects.svg"?>
@@ -195,6 +155,11 @@ Most of the site is written in php with the requests being made by sending reque
 </div>
 </div>
 </div>
+<div data-pushbar-id="mypushbar1" class="pushbar from_left">
+									   	Push bar content 1
+
+									   	<button data-pushbar-close>Close</button>
+								  </div>
 <script type="text/javascript" src="pushbar/pushbar.js"></script>	
 <script type="text/javascript">
 	var pushbar = new Pushbar({
