@@ -143,8 +143,6 @@ projs.scrollIntoView();
 </div>
 </div>
 
-  
-
 <div class = "flex-item2">
 	<div class ="divheader">
 		<?php include "projects.svg"?>
