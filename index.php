@@ -125,11 +125,11 @@ projs.scrollIntoView();
 <div class="parent">
 <div class="div1 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Calendar.jpg"> </img>
-<p><b>DTF</b><br> <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-<button data-pushbar-target="mypushbar1">Open my pushbar1</button></div>
+<p><b>DTF</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
+<button data-pushbar-target="mypushbar1">View Details</button></div>
 <div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
-<p><b>Node.JS Real Time Chat</b><br> <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
+<p><b>Node.JS Real Time Chat</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
 <div class="div3 "> </div>
 <div class="div4 "> </div>
 <div class="div5 "> </div>
@@ -153,8 +153,17 @@ projs.scrollIntoView();
 </div>
 </div>
 </div>
-<div data-pushbar-id="mypushbar1" class="pushbar from_left">
-									   	Push bar content 1
+<div data-pushbar-id="mypushbar1" class="pushbar from_bottom">
+   	<p>
+This project involved using the api for the popular video game Dota 2, the api contains a large amount of detail on over 4 billion matches.
+I was really interested when I found out about the amoutn of data that was actually stored, DTF was based on the idea that you search in your account ID and your recent match history was made.
+It was implemented like this as I only had 100,000 api requests per day and I wanted the system to be dynamic enough that if there were a large amount of visitors I wouldn't hit the limit.
+All data that was searched was imported into the database so as to not use up a precious request.
+<br>
+<b>Languages Used</b>
+<br> 
+Most of the site is written in php with the requests being made by sending requests to page using jQuery which returns a JSON.
+</p>
 
 									   	<button data-pushbar-close>Close</button>
 								  </div>
