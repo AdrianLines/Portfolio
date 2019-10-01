@@ -166,11 +166,12 @@ projs.scrollIntoView();
 I was really interested when I found out about the amoutn of data that was actually stored, DTF was based on the idea that you search in your account ID and your recent match history was made.
 It was implemented like this as I only had 100,000 api requests per day and I wanted the system to be dynamic enough that if there were a large amount of visitors I wouldn't hit the limit.
 All data that was searched was imported into the database so as to not use up a precious request.
-<br>
+<br><br>
 <b>Languages Used</b>
-<br> 
+<br> <br>
 Most of the site is written in php with the requests being made by sending requests to page using jQuery which returns a JSON.
-</p>
+</p><br>
+<button data-pushbar-close>Close</button>
                
 					</div>
 				<div class="row">
@@ -180,7 +181,7 @@ Most of the site is written in php with the requests being made by sending reque
  
 
 
-									   	<button data-pushbar-close>Close</button>
+									   	
 								  </div>
 <script type="text/javascript" src="pushbar/pushbar.js"></script>	
 <script type="text/javascript">
