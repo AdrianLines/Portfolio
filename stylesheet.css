@@ -64,8 +64,12 @@ button {
  background: transparent;
  border:transparent;
  z-index: 1;
+ position: relative;
 }
-
+button.cardIcon::before{
+  background: #f2f3eb;
+  position: sticky;
+}
 
 button::before {
   content: '';
