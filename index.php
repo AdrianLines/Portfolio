@@ -126,7 +126,7 @@ projs.scrollIntoView();
 <div class="div1 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Calendar.jpg"> </img>
 <p><b>Dota Coffee</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-<button data-pushbar-target="mypushbar1">View Details</button></div>
+<button class ="cardbutton" data-pushbar-target="mypushbar1">View Details</button></div>
 <div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
 <p><b>Node.JS Real Time Chat</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
