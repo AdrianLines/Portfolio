@@ -143,7 +143,7 @@ projs.scrollIntoView();
 <div class="div1 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Calendar.jpg"> </img>
 <p><b>DTF</b><br> <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-<button data-pushbar-target="mypushbar1">Open my pushbar 2</button></div>
+<button data-pushbar-target="mypushbar1">Open my pushbar1</button></div>
 <div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
 <p><b>Node.JS Real Time Chat</b><br> <a class =  "icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
@@ -195,12 +195,12 @@ Most of the site is written in php with the requests being made by sending reque
 </div>
 </div>
 </div>
+<script type="text/javascript" src="pushbar/pushbar.js"></script>	
 <script type="text/javascript">
-			  	new Pushbar({
-				blur:true,
-				overlay:true,
-			 });
-								</script>
-	<script type="text/javascript" src="pushbar/pushbar.js"></script>
+	var pushbar = new Pushbar({
+		blur:true,
+		overlay:true,
+	});
+</script>
 </body>
 </html>
