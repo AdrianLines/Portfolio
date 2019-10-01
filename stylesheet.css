@@ -80,6 +80,16 @@ button::before {
   transform: scaleY(0);
   transition: transform 0.25s ease-in-out;
 }
+
+
+button:hover {
+  cursor: pointer;
+}
+
+button:hover::before {
+  transform-origin: center bottom;
+  transform: scaleY(1);
+}
 .icon :hover{
 color: #f2f3eb;
 }
