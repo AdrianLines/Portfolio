@@ -557,6 +557,11 @@ float: left;
 
 
 }
+.pushButton{
+  padding:0;
+  font-size: 1em;
+  font-weight: 700;
+}
 .inner-div
 {
      height: 100%;

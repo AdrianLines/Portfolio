@@ -126,10 +126,12 @@ projs.scrollIntoView();
 <div class="div1 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Calendar.jpg"> </img>
 <p><b>Dota Coffee</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
-<button class ="cardbutton" data-pushbar-target="mypushbar1">View Details</button></div>
+<button class ="cardbutton" data-pushbar-target="DotaCoffee">View Details</button></div>
 <div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
 <p><b>Node.JS Real Time Chat</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
+<button class ="cardbutton" data-pushbar-target="nodeChat">View Details</button></div>
+
 <div class="div3 "> </div>
 <div class="div4 "> </div>
 <div class="div5 "> </div>
@@ -153,7 +155,24 @@ projs.scrollIntoView();
 </div>
 </div>
 </div>
-<div data-pushbar-id="mypushbar1" class="pushbar from_bottom">
+	<div data-pushbar-id="nodeChat" class="pushbar from_bottom">
+	<div class="textbox">
+				<div class="row">
+					<p class="textHeader">Dota Coffee</p>
+						<p>Node.JS Real Time Chat
+						</p>
+This Project was developed as my first attempt at using Node.JS. I followed a simple tutorial but am looking to develop a simple card game around the idea of socket.io and Node.JS.
+<br><br>
+<button class ="pushButton" data-pushbar-close>Close</button>
+               
+					</div>
+				<div class="row">
+				</div>
+
+
+
+	</div>
+<div data-pushbar-id="DotaCoffee" class="pushbar from_bottom">
 
 
 <div class="textbox">
@@ -171,7 +190,7 @@ All data that was searched was imported into the database so as to not use up a 
 <br> <br>
 Most of the site is written in php with the requests being made by sending requests to page using jQuery which returns a JSON.
 </p><br>
-<button data-pushbar-close>Close</button>
+<button class ="pushButton" data-pushbar-close>Close</button>
                
 					</div>
 				<div class="row">
