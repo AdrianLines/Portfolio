@@ -129,7 +129,7 @@ projs.scrollIntoView();
 <button class ="cardbutton" data-pushbar-target="DotaCoffee">View Details</button></div>
 <div class="div2 card">
 <img onClick = "imageClicked()" class = "cardimage" src= "images/Chat.jpg"> </img>
-<p><b>Node.JS Real Time Chat</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a> </div>
+<p><b>Node.JS Real Time Chat</b><br> <a class =  "cardIcon icon" href = "https://github.com/AdrianLines/DotaCoffee"> <i class="devicon-github-plain icon"></i></a>
 <button class ="cardbutton" data-pushbar-target="nodeChat">View Details</button></div>
 
 <div class="div3 "> </div>
@@ -155,10 +155,12 @@ projs.scrollIntoView();
 </div>
 </div>
 </div>
+
+<!-- Node Pushbar -->
 	<div data-pushbar-id="nodeChat" class="pushbar from_bottom">
 	<div class="textbox">
 				<div class="row">
-					<p class="textHeader">Dota Coffee</p>
+					<p class="textHeader">Node.JS Chat</p>
 						<p>Node.JS Real Time Chat
 						</p>
 This Project was developed as my first attempt at using Node.JS. I followed a simple tutorial but am looking to develop a simple card game around the idea of socket.io and Node.JS.
@@ -166,12 +168,12 @@ This Project was developed as my first attempt at using Node.JS. I followed a si
 <button class ="pushButton" data-pushbar-close>Close</button>
                
 					</div>
-				<div class="row">
-				</div>
-
+				
+	</div>
 
 
 	</div>
+	<!-- DotaCoffee Pushbar -->
 <div data-pushbar-id="DotaCoffee" class="pushbar from_bottom">
 
 
@@ -193,8 +195,7 @@ Most of the site is written in php with the requests being made by sending reque
 <button class ="pushButton" data-pushbar-close>Close</button>
                
 					</div>
-				<div class="row">
-				</div>
+				
 		</div>
 
  
