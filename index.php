@@ -203,6 +203,16 @@ Most of the site is written in php with the requests being made by sending reque
 
 									   	
 								  </div>
+								<div class ="footer">This is the footer
+									<div class ="flex-container">
+										<div class = "flex-item">
+										item1
+										</div>
+										<div class = "flex-item">
+										item2
+										</div>
+									</div>
+								</div>
 <script type="text/javascript" src="pushbar/pushbar.js"></script>	
 <script type="text/javascript">
 	var pushbar = new Pushbar({
