@@ -203,15 +203,16 @@ Most of the site is written in php with the requests being made by sending reque
 
 									   	
 								  </div>
-								<div class ="footer">This is the footer
-									<div class ="flex-container">
-										<div class = "flex-item">
-										item1
-										</div>
-										<div class = "flex-item">
-										item2
-										</div>
-									</div>
+								
+								<div class="footer" style="
+    color: white;
+"><div class="textbox">
+				<div class="row">
+					<p class="textHeader">Adrian Lines - Web Design / UX</p>
+						<p>Adrian Lines - Copyright © 2019</p>Thank you for taking a quick look at some of the stuff I've been up to.
+<br><br>
+
+    </div></div></div>
 								</div>
 <script type="text/javascript" src="pushbar/pushbar.js"></script>	
 <script type="text/javascript">

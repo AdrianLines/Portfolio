@@ -559,9 +559,8 @@ float: left;
 }
 .footer{
   height : 40vh;
-  width: 100vh;
   background-color: #000;
-  
+
 }
 .pushButton{
   padding:0;
